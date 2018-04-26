@@ -1,0 +1,65 @@
+{% assign form = site.forms | where:"name", include.tag | first %}
+
+<section class="section">
+
+     <h2>{{ form.title }}</h2>
+    <div class="hidden message success">
+      <p>{{ form.success }}</p>
+    </div>
+
+    <form class="block" action="{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" name="contact" netlify netlify-honeypot="gotcha">
+      
+      <input type="text" name="gotcha" style="display:none" />
+
+      {% for field in form.fields %}
+      <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>
+
+        {% if field.type != 'submit' %}
+        <label>{{ field.label }}{% if field.required %} <span>*</span>{% endif %}</label>
+        {% endif %}
+
+        {% if field.type == 'textarea' %}
+        <textarea placeholder="{{ field.label }}" class="input" name="{{ field.name }}"{% if field.required %} required{% endif %}></textarea>
+
+        {% elsif field.type == 'select' %}
+        <select class="input" name="{{ field.name }}"{% if field.required %} required{% endif %}>
+          {% if field.required %}
+          <option value="">{{ field.label }}</option>
+          {% endif %}
+          {% for option in field.options %}
+          <option value="{{ option }}">{{ option }}</option>
+          {% endfor %}
+        </select>
+
+        {% elsif field.type == 'checkboxes' %}
+        <fieldset class="checkboxes">
+          {% for option in field.options %}
+            <input class="input" type="checkbox" name="{{ field.name }}" id="checkbox-{{ option | slugify }}" value="{{ option }}" />
+            <label for="checkbox-{{ option | slugify }}">{{ option }}</label>
+          {% endfor %}
+        </fieldset>
+
+        {% elsif field.type == 'radios' %}
+        <fieldset class="radios">
+      {% for option in field.options %}
+        <input class="input" type="radio" name="{{ field.name }}" id="radio-{{ option | slugify }}" value="{{ option }}" />
+        <label for="radio-{{ option | slugify }}">{{ option }}</label>
+      {% endfor %}
+    </fieldset>
+
+    {% elsif field.type == 'submit' %}
+    <input class="button" type="submit" value="{{ field.label }}"/>
+
+    {% elsif field.type == 'date' %}
+    {% assign flatpickr = true %}
+    <input placeholder="{{ field.label }}" class="input" type="text" data-datepicker name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
+
+    {% else %}
+    <input placeholder="{{ field.label }}" class="input" type="{{ field.type }}" name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</form>
+
+</section>
