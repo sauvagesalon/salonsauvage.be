@@ -18,5 +18,12 @@ fields:
   - label: Verzenden
     name: submit
     type: submit
+  - label: personen
+    name: Aantal personen
+    required: true
+    type: number
+  - label: wanneer
+    name: Wanneer
+    required: true
 ---
 
