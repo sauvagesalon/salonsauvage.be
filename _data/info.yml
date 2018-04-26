@@ -20,8 +20,10 @@ opening-hours:
     time: '10:30 - 00:00'
 social:
   - platform: facebook
-    profile: welkombijsalonsauvage
     title: Bezoek onze facebook pagina
+    profile: welkombijsalonsauvage
+    url: https://www.facebook.com/welkombijsalonsauvage
   - platform: instagram
-    profile: salonsauvage
     title: Bezoek onze instagram pagina
+    profile: salonsauvage
+    url: https://www.instagram.com/salonsauvage

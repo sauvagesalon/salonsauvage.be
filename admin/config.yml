@@ -156,6 +156,5 @@ collections:
               - {label: "Platform", name: "platform", widget: "string", required: false }
               - {label: "Title", name: "title", widget: "string", required: false }
               - {label: "Profile", name: "profile", widget: "string", required: false }
-              - {label: "Url", name: "platform", widget: "string", required: false }
-              - {label: "Share", name: "title", widget: "string", required: false }
+              - {label: "Url", name: "url", widget: "string", required: false }
 
