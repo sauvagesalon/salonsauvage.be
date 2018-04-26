@@ -7,6 +7,7 @@ includes:
   - name: form
     tag: contact
   - name: map
+    tag: 'Kramershoek+6,+9940+Evergem'
 ---
 
 # Vragen of opmerkingen?
