@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: "bert-bruggeman/sauvage-prototype"
+  repo: "sauvagesalon/salonsauvage.be"
   branch: master
 
 
