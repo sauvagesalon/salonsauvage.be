@@ -99,7 +99,7 @@ collections:
         fields:
           - {label: "Name", name: name, widget: string}
           - {label: "Label", name: label, widget: string}
-          - {label: "Type", name: "type", widget: "select", options: ["text", "textarea", "email", "number", "file", "select"], default: "text" }
+          - {label: "Type", name: "type", widget: "select", options: ["text", "textarea", "email", "number", "file", "select", "submit"], default: "text" }
           - {label: "Required", name: "required", widget: "boolean", default: false}
           - {label: "Options", name: options, widget: "list", required: false}
 
