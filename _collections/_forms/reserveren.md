@@ -3,6 +3,13 @@ title: Reserveren
 name: reserveren
 success: Uw bericht werd succesvol verzonden.
 fields:
+  - label: Aantal personen
+    name: aantal-personen
+    required: true
+    type: number
+  - label: Wanneer
+    name: wanneer
+    required: true
   - label: Volledige naam
     name: naam
     required: true
@@ -18,12 +25,5 @@ fields:
   - label: Verzenden
     name: submit
     type: submit
-  - label: personen
-    name: Aantal personen
-    required: true
-    type: number
-  - label: wanneer
-    name: Wanneer
-    required: true
 ---
 
