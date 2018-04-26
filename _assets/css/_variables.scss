@@ -1,0 +1,38 @@
+// colors
+$color-border: mix(#77716E,white,50);
+$color-focus: #4c787f;
+$color-highlight: #4c787f;
+$color-primary: #f5ecdd;
+$color-secondary: #43322B;
+$color-text: #77716E;
+
+// base
+$base-background: asset_url("texture.png");
+$base-border-size: 2px;
+$base-font-family: "Roboto Slab", Times, "Times New Roman", serif;
+
+$base-font-size: 1.4rem;
+$base-font-weight: 400;
+$base-font-weight-bold: 600;
+$base-line-height: 3rem;
+$base-letter-spacing: .1rem;
+$base-margin: 2rem;
+$base-padding: null;
+
+// headings
+$heading-color: null;
+$heading-font-family: null;
+$heading-font-size: 1.6rem;
+$heading-line-height: 3rem;
+$heading-letter-spacing: .2rem;
+$heading-margin: 1.2rem;
+
+// breakpoints
+$breakpoint-tiny: (540 / 16) * 1em;
+$breakpoint-small: (860 / 16) * 1em;
+$breakpoint-medium: (1080 / 16) * 1em;
+$breakpoint-large: (1440 / 16) * 1em;
+$breakpoint-huge: (1800 / 16) * 1em;
+
+// theme
+$breakpoint-height: (760 / 16) * 1em;

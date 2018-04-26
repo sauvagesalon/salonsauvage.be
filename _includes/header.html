@@ -1,0 +1,38 @@
+{% assign info = site.data.info %}
+
+<header id="header">
+
+    <a id="logo" href="/">
+        {% asset logo.svg width=300 height=286 %}
+    </a>
+
+    {% include navigation.html %}
+
+    <div id="info" class="vcard">
+
+        <img class="photo hidden" alt="Salon Sauvage" src="{% asset '{{ site.data.info.image | remove: "/media/" }}' @path magick:resize=1200^x1200^ magick:crop=1200x1200+0+0 magick:quality=75 magick:compress=jpeg %}"/>
+        {% if info.name %}<span class="fn org hidden">{{ info.name }}</span>{% endif %}
+
+        {% if info.street or info.postal or info.locality %}
+        <address class="adr">
+          {% if info.street %}<span class="street-address">{{ info.street }}</span>{% endif %}
+           -
+          {% if info.postal %}<span class="postal">{{ info.postal }}</span>{% endif %}
+          {% if info.locality %}<span class="locality">{{ info.locality }}</span>{% endif %}
+        </address>
+        {% endif %}
+
+        {% if info.email %}<span><a class="email" href="mailto:{{ info.email | encode_email }}">{{ info.email }}</a></span>{% endif %}
+        {% if info.phone %}<span class="tel">TEL: {{ info.phone }}</span>{% endif %}
+        {% if info.mobile %}<span class="tel mobile">TEL: {{ info.mobile }}</span>{% endif %}
+
+        {% if info.opening-hours %}
+        {% for item in info.opening-hours %}
+            <strong>{{ item.day }} | {{ item.time }}</strong>
+            {% include components/content.html item=item.description %}
+        {% endfor %}
+        {% endif %}
+
+    </div>
+
+</header>

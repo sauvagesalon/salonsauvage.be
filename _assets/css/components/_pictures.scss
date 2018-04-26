@@ -1,0 +1,41 @@
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+    transition-delay: .5s;
+}
+
+picture {
+    position: relative;
+
+    &:before {
+        content: "";
+        height: 0;
+        display: block;
+    }
+
+    img {
+        @include position(absolute,0,0,0,0);
+    }
+}
+
+
+#banner picture:before {
+    padding-bottom: 90%;
+}
+
+aside picture:before {
+    padding-bottom: 100%;
+}
+
+.teaser picture:before {
+    padding-bottom: 100%;
+}
+
+
+@media screen and (min-width: $breakpoint-tiny) {
+
+    #banner picture:before {
+        padding-bottom: 50%;
+    }
+
+}

@@ -1,0 +1,61 @@
+.card {
+    display: block;
+    margin-bottom: 3rem;
+
+    img {
+        border-radius: .6rem .6rem 0 0;
+    }
+
+    h3 {
+        margin: 0 0 1rem;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    picture {
+        margin: 0;
+
+        & + .content {
+            border-radius: 0 0 .6rem .6rem;
+            border-width: 0 .1rem .1rem .1rem;
+        }
+    }
+
+    .content {
+        padding: 1.6rem 2rem .1rem;
+        background: white;
+        border: .1rem solid $color-primary;
+        border-radius: .6rem;
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+    }
+
+}
+
+
+@media screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-large) {
+
+    .card {
+        display: flex;
+
+        img {
+            border-radius: .6rem 0 0 .6rem;
+        }
+
+        picture {
+            width: 100%;
+            max-width: 30rem;
+            min-height: 100%;
+
+            & + .content {
+                border-radius:  0 .6rem .6rem 0;
+                border-width: .1rem .1rem .1rem 0;
+            }
+        }
+
+        .content {
+            padding: 3rem;
+            flex-grow: 1;
+        }
+    }
+}

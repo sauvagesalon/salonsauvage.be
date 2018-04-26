@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include components/figure.html style="banner" image=page.image.url id="banner" class="section" alt=page.image.alt caption=page.image.caption %}
+
+{% if content.size > 1 %}
+<article class="page">
+
+    <div class="content">
+        {% include components/content.html item=content %}
+    </div>
+
+    {% if page.aside %}
+    <aside>
+        {% for item in page.aside %}
+        {% include components/card.html title=item.title content=item.description image=item.image link=item.url %}
+        {% endfor %}
+    </aside>
+    {% endif %}
+
+</article>
+{% endif %}
+
+{% if page.includes %}
+{% for item in page.includes %}
+{% include sections/{{ item.name }}.html tag=item.tag %}
+{% endfor %}
+{% endif %}

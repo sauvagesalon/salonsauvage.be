@@ -1,0 +1,6 @@
+<section class="section" id="latest-posts">
+    <h2 class="hidden">{{ site.data.vocabulary.latest-posts }}</h2>
+    {% for item in site.posts %}
+        {% include components/card.html title=item.title content=item.description image=item.image date=item.date link=item.url style="teaser" class="teaser" %}
+    {% endfor %}
+</section>

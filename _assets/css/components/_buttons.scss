@@ -1,0 +1,29 @@
+.button {
+    background: transparent;
+    border-width: .2rem .3rem .3rem .2rem;
+    border-style: solid;
+    border-color: mix($color-secondary, white, 65);
+    color: mix($color-secondary, white, 65);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        border-color: $color-highlight;
+        color: $color-highlight;
+    }
+
+    &:focus,
+    &:active {
+        border-width: .3rem .2rem .2rem .3rem;
+    }
+
+    @media screen and (max-width: $breakpoint-small) {
+        width: 100%;
+    }
+
+}

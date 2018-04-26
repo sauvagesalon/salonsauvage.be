@@ -1,0 +1,147 @@
+# Site settings
+title: Salon Sauvage
+email: info@salonsauvage.be
+description: Public website
+baseurl: ""
+url: "https://salonsauvage.be"
+lang: "nl"
+github_username: "sauvagesalon"
+repository: "sauvagesalon/salonsauvage.be"
+remote_theme: bert-bruggeman/jekyll-base-theme
+
+
+# favicon settings
+favicon-theme-color: #ffffff
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: false
+plugins:
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-assets
+  - jekyll-email-protect
+  - jekyll-include-cache
+
+# Includes
+include:
+  - _pages
+  - _collections
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache
+  - .git
+
+# Do not process folders
+keep_files:
+  - media
+
+# Collections
+collections_dir: _collections
+collections:
+  forms:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      type: pages
+      path: _pages
+    values:
+      schema: "WebPage"
+  - scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:year-:month-:day-:title:output_ext
+      incremental: true
+      og-type: blog
+      schema: BlogPosting
+
+# Image styles
+image_styles:
+  quality: 75
+  card:
+    width: 320
+    height: 320
+    sizes:
+    - media: 'min-width: 1440px'
+      width: 320
+      height: 320
+    - media: 'min-width: 1080px'
+      width: 240
+      height: 240
+  teaser:
+    width: 320
+    height: 320
+    sizes:
+    - media: 'min-width: 540px'
+      width: 200
+      height: 200
+  banner:
+    width: 360
+    height: 324
+    sizes:
+    - media: 'min-width: 1800px'
+      width: 1080
+      height: 540
+    - media: 'min-width: 1440px'
+      width: 1440
+      height: 720
+    - media: 'min-width: 1080px'
+      width: 1080
+      height: 540
+    - media: 'min-width: 860px'
+      width: 860
+      height: 430
+    - media: 'min-width: 540px'
+      width: 540
+      height: 270
+
+# liquid compress html
+compress_html:
+  clippings: all
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+# jekyll-assets
+assets:
+  source_maps: false
+  destination: "/assets"
+  compression: true
+  digest: false
+  gzip: true
+  defaults:
+    js: { integrity: false }
+    css: { integrity: false }
+    img: { integrity: false }
+  caching:
+    path: ".jekyll-cache/assets"
+    type: file
+    enabled: true
+  precompile: []
+  raw_precompile: []
+  cdn:
+    baseurl: false
+    destination: false
+    url: null
+  sources:
+    - _assets
+    - _assets/favicons
+    - media
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
+  debug: true

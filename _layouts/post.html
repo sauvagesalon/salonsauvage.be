@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include components/figure.html style="banner" image=page.banner.url id="banner" class="section" alt=page.banner.alt caption=page.banner.caption %}
+
+{% if content.size > 1 %}
+<article class="page post">
+
+    <div class="content">
+        {% include components/content.html item=content %}
+        {% include components/date.html date=page.date icon="time" %}
+        {% include components/share.html %}
+    </div>
+
+    {% if page.image %}
+    <aside>
+        {% include components/figure.html style="card" image=page.image.url alt=page.image.alt caption=page.image.caption %}
+    </aside>
+    {% endif %}
+
+</article>
+{% endif %}

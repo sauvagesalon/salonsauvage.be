@@ -1,0 +1,61 @@
+@import "modules/hamburger-icon";
+
+
+#nav {
+    a {
+        color: $color-secondary;
+        font-size: 1.2rem;
+        letter-spacing: .4rem;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color-highlight;
+        }
+
+        &.active {
+            font-weight: bold;
+        }
+    }
+
+    & > a {
+        display: none;
+        width: 5.6rem;
+        height: 5.6rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 3;
+
+        span {
+            @include hamburger-icon (
+                $color: $color-secondary
+            );
+        }
+    }
+
+    ul {
+        margin: 0;
+        list-style: none;
+    }
+
+
+    @media screen and (max-height: $breakpoint-height), screen and (max-width: $breakpoint-small) {
+
+        & > a {
+            display: flex;
+        }
+
+        & > ul {
+            display: none;
+        }
+
+    }
+
+
+    @media screen and (max-width: $breakpoint-small) {
+        &.small {
+            background: $color-primary asset_url("texture.png");
+        }
+    }
+
+}

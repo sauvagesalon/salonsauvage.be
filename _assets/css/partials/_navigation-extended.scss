@@ -1,0 +1,71 @@
+@import "modules/hamburger-icon";
+
+@keyframes butterfly {
+    0% {
+        opacity: 0;
+        transform: rotate(30deg);
+    }
+    100% {
+        opacity: .8;
+        transform: rotate(0deg);
+    }
+}
+
+#nav {
+
+    a.active {
+        position: relative;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: .2rem;
+            left: -2.4rem;
+            width: 1.2rem;
+            height: 1.2rem;
+            background: asset_url("active.svg") no-repeat 0 50%;
+            background-size: contain;
+            opacity: 0;
+            animation: butterfly .4s ease-in-out forwards;
+            animation-delay: .2s;
+        }
+
+    }
+
+    @media screen and (max-height: $breakpoint-height), screen and (max-width: $breakpoint-small) {
+
+        & > a.active span {
+            @include hamburger-icon-close;
+        }
+
+        & > ul {
+            background: $color-primary asset_url("texture.png");
+            box-sizing: border-box;
+            display: block;
+            opacity: 0;
+            padding: 6rem 4rem;
+            transform: translateX(-100%);
+            z-index: 2;
+            @include position(absolute,0,0,0,0);
+
+            &.active {
+                opacity: .99;
+                transform: translateX(0);
+                transition: all 0.4s ease-in-out;
+            }
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-small) {
+
+        & > ul {
+            position: fixed;
+        }
+
+        &.small {
+            background: $color-primary asset_url("texture.png");
+        }
+    }
+
+}

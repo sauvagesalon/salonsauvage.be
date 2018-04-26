@@ -1,0 +1,181 @@
+#header {
+    background: asset_url("texture.png"), asset_url("sidebar-top.jpg") no-repeat top center;
+    background-size: auto, cover;
+    background-color: $color-primary;
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+}
+
+
+#logo,
+#nav,
+#info {
+    background: radial-gradient(closest-side, rgba(#fff,.25), transparent);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33.33%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#logo {
+    margin: 3rem;
+    order: 2;
+
+    img {
+        height: auto;
+        width: 30rem;
+    }
+    svg {
+        fill: $color-secondary;
+        height: auto;
+        width: 100%;
+        transition: fill .5s ease-in-out;
+    }
+
+    &:hover svg {
+        fill: mix($color-highlight, $color-secondary);
+    }
+}
+
+#nav {
+    order: 4;
+}
+
+
+#social {
+    margin: .6rem 1rem;
+}
+
+#info {
+    color: $color-highlight;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    line-height: 1.8rem;
+    order: 8;
+    margin-bottom: 2rem;
+
+    address,
+    strong {
+        font-weight: $base-font-weight-bold;
+        letter-spacing: .3rem;
+        text-transform: uppercase;
+    }
+
+    strong {
+        margin-top: 1rem;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.lazyload,
+.page,
+.section {
+    opacity: 0;
+}
+
+
+@media screen and (min-width: $breakpoint-small) {
+
+    body {
+        display: flex;
+        overflow-y: hidden;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    #header,
+    #main {
+        height: 100%;
+    }
+
+    #header {
+        background-size: auto, contain;
+        min-height: 48rem;
+        max-width: 42rem;
+        flex: 1 0 33%;
+    }
+
+    #main {
+        flex: 1 0 67%;
+        padding-bottom: 6rem;
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+@media screen and (max-width: $breakpoint-small) {
+
+    #main {
+        padding-bottom: 40rem;
+    }
+
+    #info {
+        background: $color-highlight asset_url("texture.png");
+        box-sizing: border-box;
+        color: $color-primary;
+        margin: 0;
+        padding: 4rem 0;
+        @include position(absolute,null,0,0,0);
+
+        a {
+            color: $color-primary;
+        }
+
+        svg {
+            fill: $color-primary;
+        }
+
+        .org {
+            opacity: 1;
+            width: auto;
+            height: auto;
+            position: static;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            z-index: 1;
+        }
+    }
+
+}
+
+
+
+@media screen and (max-height: $breakpoint-height), screen and (max-width: $breakpoint-small) {
+
+    #logo {
+        margin: -2rem 2rem 3.2rem;
+    }
+
+    #nav {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-basis: 5.6rem;
+        width: 100%;
+        flex-grow: 0;
+        align-items: center;
+        order: 1;
+    }
+
+}
+
+
+@media screen and (min-width: $breakpoint-small) and (min-height: $breakpoint-height) {
+
+    #social {
+        @include position(absolute,0,null,null,0);
+    }
+
+}

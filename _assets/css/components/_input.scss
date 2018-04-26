@@ -1,0 +1,44 @@
+.input {
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1em;
+    border-width: 0 0 .2rem 0;
+    border-style: solid;
+    border-color: mix($color-secondary, white, 65);
+    padding: .5rem 1rem .5rem 0;
+    transition: border-color .2s ease-in-out;
+    width: 100%;
+    color: $color-secondary;
+
+    &:focus {
+        border-color: $color-highlight;
+        color: $color-highlight;
+
+        &::placeholder {
+            color: mix($color-highlight, white, 45);
+        }
+    }
+
+    &::placeholder {
+        color: mix($color-secondary, white, 75);
+        transition: color .2s ease-in-out;
+    }
+}
+
+
+label {
+    display: none;
+}
+
+
+form > div {
+    margin-bottom: $base-margin;
+}
+
+textarea.input {
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    border-width: .2rem;
+    min-height: 16rem;
+    resize: vertical;
+}

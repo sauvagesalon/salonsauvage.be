@@ -1,0 +1,28 @@
+---
+---
+
+{% capture css %}
+{% asset css/critical @inline %}
+{% asset css/non-critical @inline %}
+{% endcapture %}
+
+{{ css | replace: '<style rel="stylesheet" type="text/css">', '' | replace: '</style>', '' }}
+
+.preview-block {
+    padding: .4em .5em;
+    border: 1px dashed grey;
+}
+
+picture.preview-img {
+    background-position: center center;
+    background-size: cover;
+}
+
+picture.preview-img:before {
+    position: relative;
+    z-index: -1;
+}
+
+body {
+    overflow: initial;
+}

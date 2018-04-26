@@ -1,0 +1,6 @@
+<section class="section" id="posts">
+    <h1>{{ site.data.vocabulary.posts }}</h2>
+    {% for item in site.posts %}
+        {% include components/card.html title=item.title content=item.description image=item.image date=item.date link=item.url class="teaser post" %}
+    {% endfor %}
+</section>

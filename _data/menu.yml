@@ -1,0 +1,14 @@
+title: Menu
+links:
+  - url: /
+    title: Home
+  - url: /blog
+    title: Blog
+  - url: /over-ons
+    title: Over ons
+  - url: /menukaart
+    title: menukaart
+  - url: /contact
+    title: Contact
+  - url: /reserveren
+    title: Reserveren
