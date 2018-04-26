@@ -8,25 +8,20 @@ email: info@salonsauvage.be
 image: /media/cold.jpg
 opening-hours:
   - day: do - vr - za
-    time: 12:00 - 24:00
     description: Lunch - Tearoom - Dinner
+    time: '12:00 - 24:00'
   - day: zondag
-    time: 10:30 - 00:00
-    description: >-
-        Lazy Brunch (op reservatie) \
-        food menu (op reservatie) \
-        Tearoom \
+    description: |-
+      Lazy Brunch (op reservatie)
 
+      food menu (op reservatie)
+
+      Tearoom
+    time: '10:30 - 00:00'
 social:
   - platform: facebook
-    title: Bezoek onze facebook pagina
     profile: welkombijsalonsauvage
-    url: https://www.facebook.com/welkombijsalonsauvage
-    share: 1
-    link: 1
+    title: Bezoek onze facebook pagina
   - platform: instagram
-    title: Bezoek onze instagram pagina
     profile: salonsauvage
-    url: https://www.instagram.com/salonsauvage
-    share: 1
-    link: 1
+    title: Bezoek onze instagram pagina
