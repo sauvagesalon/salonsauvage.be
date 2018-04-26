@@ -25,4 +25,5 @@ picture.preview-img:before {
 
 body {
     overflow: initial;
+    display: block;
 }
