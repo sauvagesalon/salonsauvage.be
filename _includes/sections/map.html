@@ -1,0 +1,5 @@
+{% assign src = include.tag | prepend: "https://www.google.com/maps/embed/v1/place?q=" | append: "&key=AIzaSyCYXgGbTnwcwMDuG6XOfhUxWHVZ26yevZk" %}
+<section class="map">
+    <h2 class="hidden">Locatie</h2>
+    {% include components/iframe.html src=src %}
+</section>

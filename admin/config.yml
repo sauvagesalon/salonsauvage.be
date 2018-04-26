@@ -50,7 +50,7 @@ collections:
         widget: list
         fields:
           - {label: "Name", name: "name", widget: "select", options: ["posts", "latest-posts", "form", "instagram", "map"], required: true }
-          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Tag/Data", name: "tag", widget: "string", required: false}
 
   - name: "posts"
     label: "Posts"
