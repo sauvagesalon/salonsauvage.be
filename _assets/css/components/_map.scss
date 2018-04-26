@@ -1,0 +1,25 @@
+
+.map {
+    position: relative;
+
+    &:before {
+        box-sizing: border-box;
+        content: "";
+        height: 0;
+        display: block;
+        padding-bottom: 90%;
+    }
+
+    iframe {
+        @include position(absolute,0,0,0,0);
+    }
+}
+
+
+@media screen and (min-width: $breakpoint-tiny) {
+
+    .map:before {
+        padding-bottom: 50%;
+    }
+
+}
