@@ -1,0 +1,7 @@
+{% if include.items %}
+<aside>
+  {% for item in include.items %}
+  {% include components/card.html title=item.title content=item.description image=item.image link=item.url %}
+  {% endfor %}
+</aside>
+{% endif %}
