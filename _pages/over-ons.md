@@ -6,7 +6,7 @@ description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
 image:
   alt: Afbeelding alt
   caption: Afbeelding caption
-  url: ''
+  url: /media/omgeving.jpeg
 aside:
   - title: Lorem ipsum dolor
     description: >-
