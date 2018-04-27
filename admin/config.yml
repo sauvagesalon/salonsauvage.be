@@ -90,7 +90,7 @@ collections:
     folder: "_collections/_forms"
     create: true
     fields:
-      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Info", name: "body", widget: "markdown", required: false }
       - {label: "Success message", name: "success", widget: "text", required: "false"}
       - label: "Fields"
