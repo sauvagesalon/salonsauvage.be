@@ -8,7 +8,6 @@ includes:
     tag: Kramershoek+6+9940+Evergem
   - name: form
     tag: contact
-
 aside:
   - title: Lorem ipsum dolor
     description: >-

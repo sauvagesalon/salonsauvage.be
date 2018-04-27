@@ -16,15 +16,14 @@ layout: default
 </article>
 {% endif %}
 
-{% if page.includes %}
-{% for item in page.includes %}
+{% assign map = page.includes | where_exp: "item", "item.name == 'map'" | first %}
+{% include sections/map.html tag=map.tag %}
 
-{% if page.content.size == 0 %}
-{% include sections/{{ item.name }}.html tag=item.tag aside=page.aside %}
-{% else %}
-{% include sections/{{ item.name }}.html tag=item.tag %}
-{% endif %}
-
-
+{% assign aside = page.includes | where_exp: "item", "item.name != 'map'" %}
+{% for item in aside %}
+    {% if forloop.first %}
+    {% include sections/{{ item.name }}.html tag=item.tag aside=page.aside %}
+    {% else %}
+    {% include sections/{{ item.name }}.html tag=item.tag %}
+    {% endif %}
 {% endfor %}
-{% endif %}
