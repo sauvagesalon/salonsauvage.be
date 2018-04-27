@@ -77,7 +77,7 @@ var PagePreview = createClass({
     }
 
     // content
-    if (body.props.value.trim() != "") {
+    if (body && body.props.value.trim() != "") {
         partials.content = h("article", {"className": className}, h('div', {className: "content"}, body), partials.aside);
     }
 
@@ -87,7 +87,7 @@ var PagePreview = createClass({
             return h("div", {"className": "preview-block"}, item.getIn(['data', 'type']));
         });
 
-        if (body.props.value.trim() == "" && partials.aside != "") {
+        if (body && body.props.value.trim() == "" && partials.aside != "") {
             partials.includes = h('div', {className: "page"}, h('div', {className: "content"}, sections), partials.aside);
         }
         else {
