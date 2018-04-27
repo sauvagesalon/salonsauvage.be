@@ -27,7 +27,6 @@
 #logo {
     margin: 3rem;
     order: 2;
-    transform:translate3d(0,0,0);
 
     img {
         height: auto;
@@ -38,6 +37,8 @@
         height: auto;
         width: 100%;
         transition: fill .5s ease-in-out;
+        transform:translate3d(0,0,0);
+
     }
 
     &:hover svg {
@@ -82,7 +83,6 @@
 .page,
 .section {
     opacity: 0;
-    transform:translate3d(0,0,0);
 }
 
 
