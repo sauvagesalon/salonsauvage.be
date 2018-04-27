@@ -11,19 +11,20 @@ layout: default
         {% include components/content.html item=content %}
     </div>
 
-    {% if page.aside %}
-    <aside>
-        {% for item in page.aside %}
-        {% include components/card.html title=item.title content=item.description image=item.image link=item.url %}
-        {% endfor %}
-    </aside>
-    {% endif %}
+    {% include components/aside.html items=page.aside %}
 
 </article>
 {% endif %}
 
 {% if page.includes %}
 {% for item in page.includes %}
+
+{% if page.content.size == 0 %}
+{% include sections/{{ item.name }}.html tag=item.tag aside=page.aside %}
+{% else %}
 {% include sections/{{ item.name }}.html tag=item.tag %}
+{% endif %}
+
+
 {% endfor %}
 {% endif %}

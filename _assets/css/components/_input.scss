@@ -31,8 +31,13 @@ label {
 }
 
 
-form > div {
-    margin-bottom: $base-margin;
+form {
+    margin-bottom: 8rem;
+
+    & > div {
+        margin-bottom: $base-margin;
+    }
+
 }
 
 textarea.input {

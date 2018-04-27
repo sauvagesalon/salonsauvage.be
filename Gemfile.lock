@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (8.3.0)
+    autoprefixer-rails (8.3.0.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -37,7 +37,7 @@ GEM
       progress (~> 3.0, >= 3.0.1)
     image_size (1.5.0)
     in_threads (1.5.0)
-    jekyll (3.7.3)
+    jekyll (3.8.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -95,7 +95,7 @@ GEM
       forwardable-extended (~> 2.6)
     progress (3.4.0)
     public_suffix (3.0.2)
-    rack (2.0.4)
+    rack (2.0.5)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -125,7 +125,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   image_optim
-  jekyll (~> 3.7.3)
+  jekyll
   jekyll-assets
   jekyll-email-protect
   jekyll-include-cache

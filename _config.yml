@@ -14,6 +14,7 @@ remote_theme: bert-bruggeman/jekyll-base-theme
 favicon-theme-color: #ffffff
 
 # Build settings
+incremental: true
 markdown: kramdown
 kramdown:
   auto_ids: false
@@ -55,13 +56,13 @@ defaults:
       type: pages
       path: _pages
     values:
-      schema: "WebPage"
+      regenerate: true
+      schema: WebPage
   - scope:
       type: posts
     values:
-      layout: post
+      layout: article
       permalink: /blog/:year-:month-:day-:title:output_ext
-      incremental: true
       og-type: blog
       schema: BlogPosting
 
