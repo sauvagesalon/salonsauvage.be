@@ -9,8 +9,10 @@
 {{ css | replace: '<style rel="stylesheet" type="text/css">', '' | replace: '</style>', '' }}
 
 .preview-block {
-    padding: .4em .5em;
-    border: 1px dashed grey;
+    padding: 14rem 2rem;
+    border: 2px dashed grey;
+    margin: 1rem;
+    text-align: center;
 }
 
 picture.preview-img {
