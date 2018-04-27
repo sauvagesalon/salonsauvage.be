@@ -23,6 +23,10 @@
         color: mix($color-secondary, white, 75);
         transition: color .2s ease-in-out;
     }
+
+    &[type="number"] {
+        padding-right: 0;
+    }
 }
 
 
@@ -31,13 +35,8 @@ label {
 }
 
 
-form {
-    margin-bottom: 8rem;
-
-    & > div {
-        margin-bottom: $base-margin;
-    }
-
+form > div {
+    margin-bottom: $base-margin;
 }
 
 textarea.input {

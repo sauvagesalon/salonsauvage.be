@@ -6,14 +6,14 @@ description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
 image:
   alt: Afbeelding alt
   caption: Afbeelding caption
-  url: /media/bottle.jpg
+  url: /media/omgeving.jpg
 aside:
   - title: Lorem ipsum dolor
     description: >-
       Tempor aliquip, culpa earum itaque sed consequatur minus aliquip
       reprehenderit nihil veniam tempora
     image:
-      url: /media/dish.jpg
+      url: /media/interieur.jpg
   - title: Lorem ipsum dolor
     description: |-
       * [Tempor aliquip](#)
