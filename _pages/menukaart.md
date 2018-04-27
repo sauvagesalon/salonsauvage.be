@@ -12,12 +12,12 @@ aside:
       reprehenderit nihil veniam tempora
     image:
       url: /media/denexoot.jpg
-  - title: Gerecht in de kijker
+  - title: Nog een gerecht in de kijker
     description: >-
       Tempor aliquip, culpa earum itaque sed consequatur minus aliquip
       reprehenderit nihil veniam tempora
     image:
-      url: /media/pastapesto.jpg
+      url: /media/chilidog.jpg
 ---
 # Menukaart
 
