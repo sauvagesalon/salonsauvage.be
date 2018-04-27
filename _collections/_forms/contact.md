@@ -20,4 +20,4 @@ fields:
 ---
 # Contactformulier
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ute et dolore magna aliqua.
+Vragen of opmerkingen? Aarzel niet ons te contacteren.
