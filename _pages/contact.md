@@ -1,5 +1,5 @@
 ---
-title: Contacteer Salon Sauvage
+title: Contact - Salon Sauvage
 permalink: /contact
 layout: page
 description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
@@ -15,9 +15,8 @@ aside:
       alt: Terras
       url: /media/terras.jpg
 includes:
-  - name: map
-    tag: Kramershoek+6+9940+Evergem
-  - name: form
-    tag: contact
+  - type: map
+    data: Kramershoek+6+9940+Evergem
+  - type: form
+    data: contact
 ---
-

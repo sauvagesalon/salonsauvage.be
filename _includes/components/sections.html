@@ -1,15 +1,15 @@
-{% assign map = include.items | where_exp: "item", "item.name == 'map'" | first %}
-{% assign includes = include.items | where_exp: "item", "item.name != 'map'" %}
+{% assign map = include.items | where_exp: "item", "item.type == 'map'" | first %}
+{% assign includes = include.items | where_exp: "item", "item.type != 'map'" %}
 
 {% if map %}
-{% include sections/map.html tag=map.tag %}
+{% include sections/map.html tag=map.data %}
 {% endif %}
 
 {% if includes %}
 
     {% capture sections %}
     {% for item in includes %}
-        {% include sections/{{ item.name }}.html tag=item.tag %}
+        {% include sections/{{ item.type }}.html tag=item.data %}
     {% endfor %}
     {% endcapture %}
 

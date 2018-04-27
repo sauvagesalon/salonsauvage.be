@@ -49,8 +49,8 @@ collections:
         required: false
         widget: list
         fields:
-          - {label: "Name", name: "name", widget: "select", options: ["posts", "latest-posts", "form", "instagram", "map"], required: true }
-          - {label: "Tag/Data", name: "tag", widget: "string", required: false}
+          - {label: "Type", name: "type", widget: "select", options: ["posts", "latest-posts", "form", "instagram", "map"], required: true }
+          - {label: "Tag/Name", name: "data", widget: "string", required: false}
 
   - name: "posts"
     label: "Posts"
@@ -157,4 +157,3 @@ collections:
               - {label: "Title", name: "title", widget: "string", required: false }
               - {label: "Profile", name: "profile", widget: "string", required: false }
               - {label: "Url", name: "url", widget: "string", required: false }
-
