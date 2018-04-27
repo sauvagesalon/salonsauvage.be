@@ -16,8 +16,7 @@ layout: default
 </article>
 {% endif %}
 
-{% assign map = page.includes | where_exp: "item", "item.name == 'map'" | first %}
-{% include sections/map.html tag=map.tag %}
+
 
 {% assign aside = page.includes | where_exp: "item", "item.name != 'map'" %}
 {% for item in aside %}
