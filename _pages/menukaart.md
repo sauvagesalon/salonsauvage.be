@@ -21,9 +21,9 @@ aside:
 ---
 # Menukaart
 
-## Petite Bouffes - Grande Bouffes. 
-
 > Salon Sauvage heeft een eigenzinnige kaart met een aantal Vlaamse klassiekers maar vooral heel wat gerechten met Mediterrane en Zuid-Amerikaanse invloeden.
+
+## Petite Bouffes - Grande Bouffes.
 
 Voor de kleine honger is er keuze tussen een reeks kleinere gerechten: 'les petite bouffes' die je delen met je tafelgenoten. Grote honger? Ga dan voor een 'Grande Bouffe'.
 
