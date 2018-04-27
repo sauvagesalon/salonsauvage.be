@@ -5,7 +5,7 @@ postal: 9940
 locality: Evergem
 phone: 09 279 53 72
 email: info@salonsauvage.be
-image: /media/cold.jpg
+image: /media/logo.png
 opening-hours:
   - day: do - vr - za
     description: Lunch - Tearoom - Dinner
@@ -20,10 +20,10 @@ opening-hours:
     time: '10:30 - 00:00'
 social:
   - platform: facebook
-    title: Bezoek onze facebook pagina
     profile: welkombijsalonsauvage
-    url: https://www.facebook.com/welkombijsalonsauvage
+    title: Bezoek onze facebook pagina
+    url: 'https://www.facebook.com/welkombijsalonsauvage'
   - platform: instagram
-    title: Bezoek onze instagram pagina
     profile: salonsauvage
-    url: https://www.instagram.com/salonsauvage
+    title: Bezoek onze instagram pagina
+    url: 'https://www.instagram.com/salonsauvage'
