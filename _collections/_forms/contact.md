@@ -1,6 +1,5 @@
 ---
-title: Contactformulier
-name: contact
+title: contact
 success: Uw bericht werd succesvol verzonden.
 fields:
   - label: Volledige naam

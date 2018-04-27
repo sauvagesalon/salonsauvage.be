@@ -1,6 +1,5 @@
 ---
-title: Reserveren
-name: reserveren
+title: reserveren
 success: Uw bericht werd succesvol verzonden.
 fields:
   - label: Aantal personen
