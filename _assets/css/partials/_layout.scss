@@ -27,6 +27,7 @@
 #logo {
     margin: 3rem;
     order: 2;
+    transform:translate3d(0,0,0);
 
     img {
         height: auto;
@@ -81,6 +82,7 @@
 .page,
 .section {
     opacity: 0;
+    transform:translate3d(0,0,0);
 }
 
 
