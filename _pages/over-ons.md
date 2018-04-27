@@ -22,89 +22,18 @@ aside:
       * [aliquip reprehenderit](#)
       * [nihil veniam tempora](#)
 ---
+# Een verfrissend eetcafé op de idyllische site van het kasteeldomein van Wippelgem.
 
-# Lorem ipsum dolor sit amet
+> Salon Sauvage is een verfrissend eetcafé op de idyllische site van het kasteeldomein van Wippelgem. Je kan er komen genieten van gezonde én hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 
-_Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do eiusmod tempor incididunt ute et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
 
-Quos atque officia quod. _Suscipit delectus_ cupidatat, quia nulla numquam aute cillum proident. Maiores iusto culpa molestias quam id tenetur saepe impedit reiciendis itaque ducimus itaque nostrud. Tempor aliquip, culpa earum itaque sed consequatur minus aliquip reprehenderit nihil veniam tempora do maxime omnis reiciendis elit tempora.
 
-1. Perferendis tempor
-2. Minim eiusmod
-3. Tempor Omnis corporis assumenda nisi ullam dolores culpa repellat
-4. Minus quia sint
+In mei 2016 werd er nieuw leven geblazen in deze unieke locatie: waar ontdekkers iets beleven en mensen elkaar ontmoeten. Ook is er ruimte voor speciale evenementen waarbij de bezoeker wordt ondergedompeld in de unieke themaconcepten ontwikkeld door de gezusters Deroose.
 
-* Perferendis tempor Omnis corporis assumenda nisi ullam dolores culpa repellat
-* Minim eiusmod
-* Tempor
-* Minus quia sint
+“De naam combineert enerzijds het exotische avontuurlijke met verwijzingen naar het escapisme: de ongerepte natuur, reizen naar verre oorden, verbeeldingskracht, avontuur, wildernis,... Anderzijds een authentieke, nostalgische, barokke, gezellige, rustgevende stijl die aansluit bij het pand.
 
-## Voluptates mollitia quod tempore laboris commodi
+## De gezusters Deroose
 
-Proident [dolores corrupti consequatur](https://www.google.com) dolores corrupti consequatur voluptatibus labore commodi quos. **Incidunt mollitia** tempora assumenda laborum voluptate accusamus dolore optio incididunt. Maiores at duis consequatur corrupti consectetur, aliquam optio commodo accusamus distinctio, necessitatibus nostrum.
+De bezielers en uitvoerders van Salon Sauvage zijn de gezusters Ella en Margot Deroose.
 
-### Ad perferendis omnis
-
-Pariatur animi quis. Dolorem cupiditate [praesentium duis](#) iusto corrupti nobis nostrud, exercitation consequatur. Nulla minim dignissimos reprehenderit voluptatem. Recusandae delectus iure vel asperiores saepe dolorum omnis eu aliquam similique.
-
-> Fuga rerum laboris officia cupidatat, excepteur aliquid ut quis facere, cumque harum optio dignissimos. Duis repellat tempore dolor blanditiis alias impedit officiis ut consectetur.
-
-#### Quibusdam illum quo
-
-Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia nostrud consectetur recusandae excepteur. Quis qui maiores distinctio facilis saepe eos.
-
-##### Consectetur nobis consequat voluptates eiusmod
-
-Iure vel nostrud repellendus. **Nostrud** autem consequatur, provident officiis qui, mollit exercitation. Veniam minus cillum suscipit aliqua, tenetur. Anim mollitia necessitatibus ad quos consectetur voluptatem do [corporis](#).
-
-Corporis eligendi minim, enim proident reprehenderit iusto. _Reprehenderit_ commodo commodi, repudiandae voluptas saepe sint libero. Praesentium eius distinctio ullamco vero iusto praesentium eligendi animi. Consectetur dolore vero similique dolore, ut labore omnis.
-
-###### Maxime alias anim similique
-
-Omnis corporis assumenda nisi ullam dolores culpa repellat. Molestias praesentium necessitatibus minus, reiciendis officiis commodo incidunt. Consectetur nostrud odio numquam tenetur.
-
----
-
-1. Perferendis tempor
-2. Minim eiusmod
-3. Tempor
-   1. Perferendis tempor
-   2. Minim eiusmod
-   3. Tempor
-   4. Minus quia sint
-4. Minus quia sint
-
-* Perferendis tempor
-* Minim eiusmod Omnis corporis assumenda nisi ullam dolores culpa repellat
-* Tempor
-  * Perferendis tempor Omnis corporis assumenda nisi ullam dolores culpa repellat
-  * Minim eiusmod
-  * Tempor
-  * Minus quia sint
-* Minus quia sint
-
-# Header 1 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-## Header 2 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-### Header 3 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-#### Header 4 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-##### Header 5 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-###### Header 6 Quos laboris eos, laborum animi. Ea blanditiis ducimus fugiat officia
-
-| **Company** | **Contact** | **Country** |
-| --- | --- | -- |
-| Alfreds Futterkiste | Maria Anders | Germany |
-| Centro comercial Moctezuma | Francisco Chang | Mexico |
-| Ernst Handel | Roland Mendel | Austria |
-| Island Trading | Helen Bennett | UK |
-| Laughing Bacchus Winecellars | Yoshi Tannamuri | Canada |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy |
-
-Omnis corporis
-: assumenda nisi ullam dolores
-
-Culpa repellat
-: molestias praesentium necessitatibus minus
-
-Reiciendis officiis
-: commodo incidunt. Consectetur nostrud odio numquam tenetur.
+Ze genoten beiden een opleiding in de beeldende kunsten (KASK Gent) en maken zij deel uit van het theatercollectief: Cadaver dat interactieve horrorervaringen creëert. Zowel Ella als Margot deden reeds ervaring op in de horeca. In 2016 gingen zij samen een duel aan waarin ze beide aspecten combineerden.
