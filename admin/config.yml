@@ -92,7 +92,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Success message", name: "success", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown", required: false }
+      - {label: "Success message", name: "success", widget: "text", required: "false"}
       - label: "Fields"
         name: fields
         widget: "list"
