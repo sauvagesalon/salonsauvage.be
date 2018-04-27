@@ -4,25 +4,11 @@ layout: default
 
 {% include components/figure.html style="banner" image=page.image.url id="banner" class="section" alt=page.image.alt caption=page.image.caption %}
 
-{% if content.size > 1 %}
+{% if page.content.size > 0 %}
 <article class="page">
-
-    <div class="content">
-        {% include components/content.html item=content %}
-    </div>
-
+    {% include components/content.html item=content class="content" %}
     {% include components/aside.html items=page.aside %}
-
 </article>
 {% endif %}
 
-
-
-{% assign aside = page.includes | where_exp: "item", "item.name != 'map'" %}
-{% for item in aside %}
-    {% if forloop.first %}
-    {% include sections/{{ item.name }}.html tag=item.tag aside=page.aside %}
-    {% else %}
-    {% include sections/{{ item.name }}.html tag=item.tag %}
-    {% endif %}
-{% endfor %}
+{% include components/sections.html items=page.includes content-size=page.content.size aside=page.aside %}

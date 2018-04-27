@@ -1,0 +1,27 @@
+{% assign map = include.items | where_exp: "item", "item.name == 'map'" | first %}
+{% assign includes = include.items | where_exp: "item", "item.name != 'map'" %}
+
+{% if map %}
+{% include sections/map.html tag=map.tag %}
+{% endif %}
+
+{% if includes %}
+
+    {% capture sections %}
+    {% for item in includes %}
+        {% include sections/{{ item.name }}.html tag=item.tag %}
+    {% endfor %}
+    {% endcapture %}
+
+    {% if include.content-size == 0 and include.aside %}
+    <div class="page">
+        <div class="content">
+            {{ sections }}
+        </div>
+        {% include components/aside.html items=include.aside %}
+    </div>
+    {% else %}
+    {{ sections }}
+    {% endif %}
+
+{% endif %}
