@@ -8,19 +8,22 @@ image:
   caption: Afbeelding caption
   url: /media/omgeving.jpeg
 aside:
-  - title: Lorem ipsum dolor
-    description: >-
-      Tempor aliquip, culpa earum itaque sed consequatur minus aliquip
-      reprehenderit nihil veniam tempora
+  - title: Sfeervol interieur
+    description: |-
+      Af e toe duikt er wel eens een nieuw object op in de Sauvage.
+
+      Dat komt omdat de uitbaters verwoede verzamelaars zijn.
+
+      Kom dat zien!
     image:
       url: /media/interieur.jpg
-  - title: Lorem ipsum dolor
+  - title: Waarvoor kan je terecht bij Salon Sauvage
     description: |-
-      * [Tempor aliquip](#)
-      * [culpa earum itaque](#)
-      * [sed consequatur minus](#)
-      * [aliquip reprehenderit](#)
-      * [nihil veniam tempora](#)
+      * Een heerlijke lunch 
+      * Een gezellig diner bij kaarslicht
+      * Een lazy brunch op zondag
+      * Op weekendnamiddagen: heerlijke taartjes, pannenkoeken, ijsjes, wafels
+      * Adembenemend setting aan de kasteelvijver
 ---
 # Een verfrissend eetcafé op de idyllische site van het kasteeldomein van Wippelgem.
 
