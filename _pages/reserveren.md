@@ -2,8 +2,14 @@
 title: Reserveer hier snel en makkelijk uw tafel bij Salon Sauvage
 permalink: /reserveren
 layout: page
-description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
+description: >-
+  reservatie Salon Sauvage- deze is pas bevestigd nadat u een
+  bevestigingsmailtje ontvangt
+
+
+  (dit is niet gelijk aan een bevestiging van  verzending van dit formulier)
 includes:
-  - type: form
-    data: reserveren
+  - data: reserveren
+    type: form
 ---
+
