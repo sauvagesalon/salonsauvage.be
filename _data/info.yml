@@ -7,19 +7,22 @@ phone: 09 279 53 72
 email: info@salonsauvage.be
 image: /media/logo.png
 opening-hours:
-  - day: do - vr - za
+  - day: wo - do - vr
     description: |-
-      (juni/juli/aug ook open op woensdag)\
-      (donderdag en vrijdag gesloten van 14:00 - 18:00)\
       lunch 12:00 - 14:00\
-      tearoom 14:00 - 18:00 (enkel op zaterdag)\
-      diner 18:00 - 00:00\
+      diner 18:00 - 00:00
+    time: 12:00 - 14:00 / 18:00 - 00:00
+  - day: za
+    description: |-
+      lunch 12:00 - 14:00\
+      tearoom 14:00 - 18:00\
+      diner 18:00 - 00:00
     time: 12:00 - 00:00
   - day: zon
     description: |-
       brunch (enkel op reservatie) 10:30 - 14:00\
       tearoom 14:00 - 18:00\
-      diner 18:00 - 21:00\
+      diner 18:00 - 21:00
     time: 14:00 - 21:00
 social:
   - platform: facebook
