@@ -18,9 +18,9 @@ opening-hours:
     time: 12:00 - 00:00
   - day: zon
     description: |-
-      brunch (enkel op reservatie) 10:30 - 14:00/
-      tearoom 14:00 - 18:00/
-      diner 18:00 - 21:00/
+      brunch (enkel op reservatie) 10:30 - 14:00\
+      tearoom 14:00 - 18:00\
+      diner 18:00 - 21:00\
     time: 14:00 - 21:00
 social:
   - platform: facebook
