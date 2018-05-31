@@ -7,8 +7,9 @@ phone: 09 279 53 72
 email: info@salonsauvage.be
 image: /media/logo.png
 opening-hours:
-  - day: do - vr   ( juni/juli/aug ook op woensdag open)
+  - day: do - vr
     description: |-
+      _(juni/juli/aug ook open op wo)_\
       lunch 12:00 - 14:00
 
       diner 18:00- 0:00
