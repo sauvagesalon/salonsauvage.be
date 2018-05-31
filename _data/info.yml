@@ -9,20 +9,16 @@ image: /media/logo.png
 opening-hours:
   - day: wo - do - vr
     description: |-
-      lunch 12:00 - 14:00\
-      diner 18:00 - 00:00
+      lunch 12:00 - 14:00 / diner 18:00 - 00:00
     time: 12:00 - 14:00 / 18:00 - 00:00
   - day: za
     description: |-
-      lunch 12:00 - 14:00\
-      tearoom 14:00 - 18:00\
-      diner 18:00 - 00:00
+      lunch 12:00 - 14:00 / tearoom 14:00 - 18:00 / diner 18:00 - 00:00
     time: 12:00 - 00:00
   - day: zon
     description: |-
-      brunch (enkel op reservatie) 10:30 - 14:00\
-      tearoom 14:00 - 18:00\
-      diner 18:00 - 21:00
+      brunch 10:30 - 14:00 (enkel op reservatie)\
+      tearoom 14:00 - 18:00 / diner 18:00 - 21:00
     time: 14:00 - 21:00
 social:
   - platform: facebook
