@@ -17,12 +17,16 @@ fields:
     name: email
     required: true
     type: email
+  - label: Tel
+    name: tel
+    required: true
   - label: Bericht
     name: message
     required: true
     type: textarea
   - label: Verzenden
     name: submit
+    required: false
     type: submit
 ---
 # Reserveren
