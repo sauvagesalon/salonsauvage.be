@@ -1,5 +1,5 @@
 ---
-title: Uitzonderlijk gesloten
+title: Uitzonderlijk gesloten op 6 en 7 juli
 date: '2018-06-01 12:00'
 layout: post
 description: >+
