@@ -43,6 +43,12 @@
     transition-delay: .2s;
 }
 
+.message {
+    padding: 1rem;
+    background-color: $color-highlight;
+    color: $color-primary;
+}
+
 @media screen and (min-width: $breakpoint-medium) {
 
     .page,
