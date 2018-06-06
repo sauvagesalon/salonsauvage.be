@@ -28,7 +28,7 @@
 
         {% if info.opening-hours %}
         {% for item in info.opening-hours %}
-            <strong>{{ item.day }}{% if item.time %} | {{ item.time }}{% endif %}</strong>
+            <strong>{{ item.day }}{% if item.time and item.time != "" %} | {{ item.time }}{% endif %}</strong>
             {% include components/content.html item=item.description %}
         {% endfor %}
         {% endif %}
