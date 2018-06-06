@@ -4,8 +4,8 @@ permalink: /over-ons
 layout: page
 description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
 image:
-  alt: Afbeelding alt
-  caption: Afbeelding caption
+  alt: Kasteel van Wippelgem
+  caption: Kasteel van Wippelgem
   url: /media/omgeving.jpeg
 aside:
   - title: Sfeervol interieur
