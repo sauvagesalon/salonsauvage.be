@@ -1,0 +1,13 @@
+
+<article class="{% if include.class %}{{ include.class }}{% else %}card{% endif%}">
+    {% capture style %}{% if include.style %}{{ include.style }}{% else %}card{% endif %}{% endcapture %}
+    {% include components/image.html image=include.image.url style=style alt=include.image.alt %}
+
+    <div class="content">
+        <h3>{{ include.title }}</h3>
+        {% include components/date.html date=include.date icon="time" %}
+        {% include components/content.html item=include.content %}
+        <!-- {% include components/link.html url=include.link class="read-more" title=site.data.vocabulary.read-more %} -->
+    </div>
+
+</article>
