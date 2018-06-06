@@ -44,9 +44,14 @@
 }
 
 .message {
-    padding: 1rem;
+    padding: 2rem;
     background-color: $color-highlight;
     color: $color-primary;
+    margin-bottom: 2rem;
+    
+    p {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: $breakpoint-medium) {
