@@ -4,7 +4,10 @@ title: >-
   kasteeldomein van Wippelgem Evergem
 permalink: /
 layout: page
-description: Een kort en bondige omschrijving met zoveel mogelijk kernwoorden
+description: >-
+  Salon Sauvage is een verfrissend eetcafé op de idyllische site van het
+  kasteeldomein van Wippelgem. Je kan er komen genieten van gezonde én
+  hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: Afbeelding omschrijving
   url: /media/dish.jpg
