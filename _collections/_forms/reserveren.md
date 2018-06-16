@@ -6,8 +6,11 @@ fields:
     name: aantal-personen
     required: true
     type: number
-  - label: Wanneer
-    name: wanneer
+  - label: Datum
+    name: datum
+    required: true
+  - label: Tijd
+    name: tijd
     required: true
   - label: Volledige naam
     name: naam
