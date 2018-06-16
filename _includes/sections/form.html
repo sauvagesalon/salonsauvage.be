@@ -54,6 +54,11 @@
     {% elsif field.type == 'submit' %}
     <input class="button" type="submit" value="{{ field.label }}"/>
 
+           
+    {% elsif field.type == 'date' %}
+    <input placeholder="{{ field.label }}" class="input" type="datetime-local" name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
+    {% endif %}
+           
     {% else %}
     <input placeholder="{{ field.label }}" class="input" type="{{ field.type }}" name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
     {% endif %}
