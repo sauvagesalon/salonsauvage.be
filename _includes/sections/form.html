@@ -64,6 +64,7 @@
     <input type="hidden" name="_next" value="https://salonsauvage.be{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" />
     <input type="hidden" name="_format" value="plain" />
     <input type="hidden" name="_language" value="nl" />
+    <input type="hidden" name="_replyto"/>
 </form>
 
 <script>
@@ -72,6 +73,7 @@ function customSubject(event) {
   event.preventDefault();
   var form = event.target;
   form.elements["_subject"].value = "{{ form.title }} formulier - " + form.elements[0].value;
+  form.elements["_replyto"].value = form.elements["email"].value;
   form.submit();
 }
 </script>
