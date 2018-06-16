@@ -14,6 +14,7 @@
       <input type="text" name="_gotcha" style="display:none" />
       <input type="hidden" name="_next" value="https://salonsauvage.be{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" />
       <input type="hidden" name="_format" value="plain" />
+      <input type="hidden" name="_language" value="nl" />
       
       {% for field in form.fields %}
       <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>
