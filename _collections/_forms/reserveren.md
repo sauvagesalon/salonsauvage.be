@@ -10,6 +10,10 @@ fields:
     name: datum
     required: true
     type: date
+  - label: Uur
+    name: uur
+    required: true
+    type: time
   - label: Volledige naam
     name: naam
     required: true
