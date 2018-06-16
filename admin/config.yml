@@ -19,7 +19,7 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true }
       - {label: "Url", name: "permalink", widget: "string", required: true }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
-      - {label: "Description", name: "description", widget: "text" required: true}
+      - {label: "Description", name: "description", widget: "text", required: true}
       - label: "Banner"
         name: image
         required: false
