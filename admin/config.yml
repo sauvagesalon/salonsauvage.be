@@ -16,8 +16,8 @@ collections:
     folder: "_pages"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string" required: true }
-      - {label: "Url", name: "permalink", widget: "string" required: true }
+      - {label: "Title", name: "title", widget: "string", required: true }
+      - {label: "Url", name: "permalink", widget: "string", required: true }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
       - {label: "Description", name: "description", widget: "text" required: true}
       - label: "Banner"
@@ -59,10 +59,10 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string" required: true }
+      - {label: "Title", name: "title", widget: "string", required: true }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm", default: "YYYY-MM-DD hh:mm", required: true}
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
-      - {label: "Description", name: "description", widget: "text" required: true}
+      - {label: "Description", name: "description", widget: "text", required: true}
       - label: "Image"
         name: "image"
         required: false
@@ -91,7 +91,7 @@ collections:
     folder: "_collections/_forms"
     create: true
     fields:
-      - {label: "Name", name: "title", widget: "string" required: true}
+      - {label: "Name", name: "title", widget: "string", required: true}
       - {label: "Body", name: "body", widget: "markdown", required: false }
       - {label: "Success message", name: "success", widget: "text", required: "true"}
       - label: "Fields"
