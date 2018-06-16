@@ -8,9 +8,11 @@
       <p>{{ form.success }}</p>
     </div>
 
-    <form class="form" action="{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" name="{{ form.title }}" netlify netlify-honeypot="gotcha">
-
-      <input type="text" name="gotcha" style="display:none" />
+ <form class="form" action="https://formspree.io/https://formspree.io" name="{{ form.title }}">
+     
+      <input type="hidden" name="_subject" value="Nieuwe inzending - {{ form.title }}"/>
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_next" value="https://salonsauvage.be{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" />
 
       {% for field in form.fields %}
       <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>
