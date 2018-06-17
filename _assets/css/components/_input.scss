@@ -29,8 +29,7 @@
     }
     
     &[type="datetime-local"] {
-        &::-webkit-inner-spin-button,
-        &::-webkit-calendar-picker-indicator {
+        &::-webkit-inner-spin-button {
             display: none;
             -webkit-appearance: none;
         }
