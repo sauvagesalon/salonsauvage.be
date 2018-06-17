@@ -4,7 +4,7 @@
 
      {% include components/content.html item=form.content %}
 
-    <form class="form" id="{{ form.title }}" action=""https://formsapi.jabwn.com/key/ZN03DKn5xlIkw0djxSkc" method="POST">
+    <form class="form" id="{{ form.title }}" action="https://formsapi.jabwn.com/key/ZN03DKn5xlIkw0djxSkc" method="POST">
 
       {% for field in form.fields %}
       <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>
