@@ -1,15 +1,10 @@
 ---
 title: reserveren
-success: Uw bericht werd succesvol verzonden.
+success: >-
+  Uw bericht werd succesvol verzonden, de reservatie is pas bevestigd nadat u
+  een bevestigingsmailtje ontvangt, wij trachten dit zo snel mogelijk in orde te
+  maken!
 fields:
-  - label: Aantal personen
-    name: aantal-personen
-    required: true
-    type: number
-  - label: Datum
-    name: datum
-    required: true
-    type: date
   - label: Volledige naam
     name: naam
     required: true
@@ -21,6 +16,14 @@ fields:
   - label: Tel
     name: tel
     required: true
+  - label: Aantal personen
+    name: aantal-personen
+    required: true
+    type: number
+  - label: Datum
+    name: datum
+    required: true
+    type: date
   - label: Bericht
     name: message
     required: true
