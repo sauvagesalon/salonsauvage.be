@@ -4,6 +4,10 @@
 
      {% include components/content.html item=form.content %}
 
+    <div class="hidden message success">
+      <p>{{ form.success }}</p>
+    </div>
+
     <form class="form" id="{{ form.title }}" action="https://formsapi.jabwn.com/key/ZN03DKn5xlIkw0djxSkc" method="POST">
 
       {% for field in form.fields %}
@@ -54,11 +58,21 @@
 
   </div>
   {% endfor %}
-  <input type="hidden" name="_subject" value="Nieuwe inzending - %email"/>
+  <input type="hidden" name="_after" value="https://salonsauvage.be{{ page.url }}?success=1#{{ form.title }}" />
+  <input type="hidden" name="_subject" value="Nieuwe inzending"/>
   <input type="hidden" name="_replyto" value="%email"/>
   <input type="text" name="_honey" value="" style="display:none" />
   <input type="hidden" name="_confirmation" value="{{ form.success }}">
 </form>
 
+<script>
+document.getElementById("{{ form.title }}").addEventListener("submit", customSubject);
+function customSubject(event) {
+  event.preventDefault();
+  var form = event.target;
+  form.elements["_subject"].value = "{{ form.title }} formulier - " + form.elements[0].value;
+  form.submit();
+}
+</script>
 
 </section>
