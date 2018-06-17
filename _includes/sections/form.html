@@ -4,10 +4,6 @@
 
      {% include components/content.html item=form.content %}
 
-    <div class="hidden message success">
-      <p>{{ form.success }}</p>
-    </div>
-
     <form class="form" id="{{ form.title }}" action=""https://formsapi.jabwn.com/key/ZN03DKn5xlIkw0djxSkc" method="POST">
 
       {% for field in form.fields %}
@@ -58,7 +54,12 @@
 
   </div>
   {% endfor %}
-
+  <input type="hidden" name="_after" value="https://salonsauvage.be{{ page.url }}?success=1#{{ form.title }}" />
+  <input type="hidden" name="_subject" value="Nieuwe inzending - %email"/>
+  <input type="hidden" name="_replyto" value="%email"/>
+  <input type="text" name="_honey" value="" style="display:none" />
+  <input type="hidden" name="_confirmation" value="{{ form.success }}">
 </form>
+
 
 </section>
