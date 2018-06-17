@@ -8,8 +8,8 @@
       <p>{{ form.success }}</p>
     </div>
 
-    <form class="form" id="{{ form.title }}" action=""https://formsapi.jabwn.com/key/ZN03DKn5xlIkw0djxSkc" method="POST">
-
+    <form class="form" id="{{ form.title }}" action="https://formspree.io/sauvagesalon@gmail.com" method="POST">
+      
       {% for field in form.fields %}
       <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>
 
@@ -48,17 +48,34 @@
 
     {% elsif field.type == 'submit' %}
     <input class="button" type="submit" value="{{ field.label }}"/>
-
+           
     {% elsif field.type == 'date' %}
     <input placeholder="{{ field.label }}" class="input" type="datetime-local" name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
-
+           
     {% else %}
     <input placeholder="{{ field.label }}" class="input" type="{{ field.type }}" name="{{ field.name }}"{% if field.placeholder %} placeholder="{{ field.placeholder }}"{% endif %}{% if field.required %} required{% endif %}/>
     {% endif %}
 
   </div>
   {% endfor %}
-
+     
+    <input type="hidden" name="_subject" value="Nieuwe inzending - {{ form.title }} formulier"/>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="https://salonsauvage.be{{ page.url }}?success=1#{{ page.url | slice: 1, page.url.size }}" />
+    <input type="hidden" name="_format" value="plain" />
+    <input type="hidden" name="_language" value="nl" />
+    <input type="hidden" name="_replyto"/>
 </form>
+
+<script>
+document.getElementById("{{ form.title }}").addEventListener("submit", customSubject);
+function customSubject(event) {
+  event.preventDefault();
+  var form = event.target;
+  form.elements["_subject"].value = "{{ form.title }} formulier - " + form.elements[0].value;
+  form.elements["_replyto"].value = form.elements["email"].value;
+  form.submit();
+}
+</script>
 
 </section>
