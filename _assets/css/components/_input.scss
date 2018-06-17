@@ -27,6 +27,14 @@
     &[type="number"] {
         padding-right: 0;
     }
+    
+    &[type="datetime-local"] {
+        &::-webkit-inner-spin-button,
+        &::-webkit-calendar-picker-indicator {
+            display: none;
+            -webkit-appearance: none;
+        }
+    }
 }
 
 
