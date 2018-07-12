@@ -11,7 +11,7 @@ description: >-
 image:
   alt: suggestie van de week
   url: >-
-    /media/jean-pierre_norblin_de_la_gourdaine_-after_louis_choris-_temple_du_roi_dans_la_baie_tiritatéa_-c.png
+    /media/jean-pierre_norblin_de_la_gourdaine_-after_louis_choris-_temple_du_roi_dans_la_baie_tiritatéa_-c-jpeg-.jpg
 includes:
   - type: latest-posts
   - {}
