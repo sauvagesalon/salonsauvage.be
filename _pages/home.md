@@ -13,7 +13,6 @@ image:
   url: pokebowl.jpg
 includes:
   - type: latest-posts
-  - {}
 ---
 # Welkom bij Salon Sauvage
 
