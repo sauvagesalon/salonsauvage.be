@@ -20,6 +20,9 @@ opening-hours:
     time: ''
   - day: WOE 15 AUG O.L.V. Hemelvaart
     description: GESLOTEN
+  - day: 'ZAT 17 AUG '
+    time: 'volboekt van 12:00 tot 18:00'
+  - {}
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
