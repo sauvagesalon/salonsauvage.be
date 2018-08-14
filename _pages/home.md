@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: suggestie van de week
-  url: /media/terras.jpg
+  url: /media/viscury.jpg
 includes:
   - type: latest-posts
 ---
