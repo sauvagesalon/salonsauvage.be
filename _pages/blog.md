@@ -5,7 +5,7 @@ layout: page
 description: |+
 
 image:
-  url: /media/levitation2.png
+  url: /media/levitation.png
 includes:
   - type: posts
 ---
