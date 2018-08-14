@@ -22,6 +22,10 @@ opening-hours:
     description: GESLOTEN
   - day: 'ZAT 17 AUG '
     time: 'volboekt van 12:00 tot 18:00'
+  - day: ZONDAG  19 AUG
+    time: Enkel BRUNCH (op reservatie)
+  - {}
+  - {}
   - {}
 social:
   - platform: facebook
