@@ -18,15 +18,6 @@ opening-hours:
       brunch 10:30 - 14:00 (enkel op reservatie)\
       tearoom 14:00 - 18:00 / diner 18:00 - 21:00
     time: ''
-  - day: WOE 15 AUG O.L.V. Hemelvaart
-    description: GESLOTEN
-  - day: 'ZAT 17 AUG '
-    time: 'volboekt van 12:00 tot 18:00'
-  - day: ZONDAG  19 AUG
-    time: Enkel BRUNCH (op reservatie)
-  - {}
-  - {}
-  - {}
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
