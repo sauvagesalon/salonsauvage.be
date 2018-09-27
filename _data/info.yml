@@ -18,7 +18,8 @@ opening-hours:
       brunch 10:30 - 14:00 (enkel op reservatie)\
       tearoom 14:00 - 18:00 / diner 18:00 - 21:00
     time: ''
-  - day: VERLOF van 27 sept - 10 okt
+  - day: 27 sept - 10 okt
+    description: VERLOF
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
