@@ -9,7 +9,7 @@ description: >-
   kasteeldomein van Wippelgem. Je kan er komen genieten van gezonde én
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
-  alt: suggestie van de week
+  alt: ''
   url: /media/bannerwafelstilstand.jpg
 includes:
   - type: latest-posts
