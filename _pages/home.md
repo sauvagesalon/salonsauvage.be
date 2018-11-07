@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: suggestie van de week
-  url: /media/lucht.jpg
+  url: /media/bannerwafelstilstand.jpg
 includes:
   - type: latest-posts
 ---
