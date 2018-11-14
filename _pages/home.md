@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/bannerwafelstilstand.jpg
+  url: /media/menu.png
 includes:
   - type: latest-posts
 ---
