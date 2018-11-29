@@ -1,5 +1,5 @@
 ---
-title: SUGGESTIES DON 8/11-ZON 11/11
+title: Suggesties 8.11- 11.11
 date: '2018-11-07 12:00'
 layout: post
 description: >+
