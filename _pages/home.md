@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/46231169_327921084686349_5904038997734195200_n.png
+  url: /media/ananas.png
 includes:
   - type: latest-posts
 ---
