@@ -1,5 +1,5 @@
 ---
-title: Sferisch menu elke avond van 26 t.e.m.29 okt/1t.e.m.4 nov
+title: Sferisch menu 26 okt- 4 nov
 date: '2018-10-27 12:00'
 layout: post
 description: >-
