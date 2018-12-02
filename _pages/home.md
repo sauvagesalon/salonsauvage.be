@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/romantik-banner.png
+  url: /media/viscury.jpg
 includes:
   - type: latest-posts
 ---
