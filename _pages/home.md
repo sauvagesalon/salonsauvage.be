@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/ananas.png
+  url: /media/romantik-banner.png
 includes:
   - type: latest-posts
 ---
