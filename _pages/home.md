@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/viscury.jpg
+  url: /media/winterfest.png
 includes:
   - type: latest-posts
 ---
