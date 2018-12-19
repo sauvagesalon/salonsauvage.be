@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/winterfest.png
+  url: /media/20-23-12.png
 includes:
   - type: latest-posts
 ---
