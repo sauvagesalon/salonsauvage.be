@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/kerst-uren.png
+  url: /media/kerst-uren-nieuw.png
 includes:
   - type: latest-posts
 ---
