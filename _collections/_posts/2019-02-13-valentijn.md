@@ -7,6 +7,9 @@ description: >-
   boudoir. Je kan er genieten van een heerlijk afrodisiacadis. Valentijsmenu​
   (52,5,-)
 
+  (Let op donderdag 14 februari is er uitzonderlijk geen lunch en is Salon
+  Sauvage enkel s'avonds OPEN)
+
 
   ​T​rio van amuses bouche​ ​
 
