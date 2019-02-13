@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/tekenwedstrijd.jpg
+  url: /media/flyer-valentijn.jpg
 includes:
   - type: latest-posts
 ---
