@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/salon-sauvage-kleur-tekst-poster.jpg
+  url: /media/tekenwedstrijd.jpg
 includes:
   - type: latest-posts
 ---
