@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/suggesties-27-maart.bmp
+  url: /media/marie.jpg
 includes:
   - type: latest-posts
 ---
