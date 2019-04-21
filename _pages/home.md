@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/marie.jpg
+  url: /media/pasen.png
 includes:
   - type: latest-posts
 ---
