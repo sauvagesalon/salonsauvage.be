@@ -6,7 +6,7 @@ description: |-
   Salon Sauvage is op zondag 19 mei uitzonderlijk gesloten vanaf 18:00.
   Welkom voor de tearrom van 14:00- 18:00.
 image:
-  url: /media/19-mei.png
+  url: /media/19-mei-crop.png
 blog: true
 published: true
 ---
