@@ -1,5 +1,5 @@
 ---
-title: Onze Lieve heer Hemelvaart
+title: Onze Lieve Heer Hemelvaart
 date: '2019-05-30 12:00'
 layout: post
 description: |-
