@@ -20,8 +20,9 @@ opening-hours:
     description: |-
       brunch 10:30 - 13:00 \
       tearoom 14:00 - 18:00 / diner 18:00 - 21:00
-
-      OP ZONDAG 19 MEI UITZONDERLIJK GESLOTEN VANAF 18:00
+  - day: woensdag
+    description: 'diner 18:00 - 22:00'
+  - {}
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
