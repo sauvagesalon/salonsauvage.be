@@ -3,7 +3,7 @@ title: Tentoonstelling REST
 date: '2019-05-25 12:00'
 layout: post
 description: >-
-  25 MEI- 2 JUNI
+  25 MEI- 9 JUNI
 
   Met haar historische eigenheid vormt het kasteeldomein een uitdaging voor
   kunstenaars. De leerlingen van het GO! Kunstonderwijs gaan aan de slag. Jong
