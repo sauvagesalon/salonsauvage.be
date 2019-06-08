@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/bird.png
+  url: /media/finnisage.png
 includes:
   - type: latest-posts
 ---
