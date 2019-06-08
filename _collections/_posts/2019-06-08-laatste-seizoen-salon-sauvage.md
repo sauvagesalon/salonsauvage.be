@@ -2,7 +2,7 @@
 title: LAATSTE SEIZOEN SALON SAUVAGE
 date: '2019-06-08 12:00'
 layout: post
-description: Aankondiging einde Salon Sauvage@Kasteeldomein Wippelgem
+description: Aankondiging laatste seizoen Salon Sauvage @Kasteeldomein Wippelgem
 image:
   url: /media/omgeving.jpeg
 blog: true
