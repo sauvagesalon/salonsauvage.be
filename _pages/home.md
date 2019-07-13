@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/suggesties-10-7.png
+  url: /media/volgeboekt.png
 includes:
   - type: latest-posts
 ---
