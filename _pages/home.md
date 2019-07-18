@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/curry.jpg
+  url: /media/13198487_1108527865871509_1974485240353288695_o.jpg
 includes:
   - type: latest-posts
 ---
