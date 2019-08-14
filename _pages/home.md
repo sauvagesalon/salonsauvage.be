@@ -10,7 +10,7 @@ description: >-
   hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
 image:
   alt: ''
-  url: /media/13198487_1108527865871509_1974485240353288695_o.jpg
+  url: /media/deze-week.jpg
 includes:
   - type: latest-posts
 ---
