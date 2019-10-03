@@ -3,26 +3,10 @@ name: Salon Sauvage
 street: Kramershoek 6
 postal: 9940
 locality: Evergem
-phone: 09 279 53 72
+phone: ''
 email: info@salonsauvage.be
 image: /media/logo.png
-opening-hours:
-  - day: donderdag
-    description: 'diner 18:00 - 00:00'
-    time: ''
-  - day: vrijdag
-    description: 'lunch 12:00 - 14:00 / diner 18:00 - 22:00'
-    time: ''
-  - day: zaterdag
-    description: 'diner 18:00 - 22:00'
-    time: ''
-  - day: zondag
-    description: |-
-      brunch 10:30 - 13:00 \
-      tearoom 14:00 - 18:00 / diner 18:00 - 21:00
-  - day: woensdag
-    description: 'diner 18:00 - 22:00'
-  - {}
+opening-hours: []
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
