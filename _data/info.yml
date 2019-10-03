@@ -6,7 +6,8 @@ locality: Evergem
 phone: ''
 email: info@salonsauvage.be
 image: /media/logo.png
-opening-hours: []
+opening-hours:
+  - day: ''
 social:
   - platform: facebook
     profile: welkombijsalonsauvage
