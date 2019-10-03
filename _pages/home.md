@@ -17,12 +17,8 @@ description: >-
   (https://www.facebook.com/events/782942102101103/)
 image:
   alt: ''
-  url: /media/flyer-laatst-2-jpg.jpg
+  url: /media/lucht.jpg
 includes:
   - type: latest-posts
 ---
-# Welkom bij Salon Sauvage
-
-Salon Sauvage is een verfrissend eetcafé op de idyllische site van het **kasteeldomein van Wippelgem**. Je kan er komen genieten van gezonde én hartverwarmende drankjes, kleurrijke taartjes en gevarieerde gerechten.
-
-In mei 2016 werd er nieuw leven geblazen in deze unieke locatie: "_waar ontdekkers iets beleven en mensen elkaar ontmoeten_".
+Salon Sauvage is permanent gesloten.  De nieuwe concessiehouder voor het Hoveniershuis op het Kasteeldomein van Wippelgem is de ambachtelijke koffiebrander Troast Coffee uit Evergem. De startdatum moet nog in onderling overleg bepaald worden.
