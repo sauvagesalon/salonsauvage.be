@@ -1,7 +1,5 @@
 ---
-title: >-
-  Welkom bij Salon Sauvage, een verfrissend eetcafé en restaurant op het
-  kasteeldomein van Wippelgem Evergem
+title: 'Salon Sauvage is permanent gesloten. '
 permalink: /
 layout: page
 description: >-
